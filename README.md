@@ -38,7 +38,7 @@
 
 
 
-\* ***\*Success Response:\****
+\* ***\*Response:\****
 
 
 
