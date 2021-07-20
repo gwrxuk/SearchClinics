@@ -10,11 +10,10 @@ app.use(express.json())
 clinics.buildArrayOfClinics()
 
 app.get('/', function(request, response){
-
-  response.send(clinics.listClinics());    // echo the result back
+    response.send("Clinics Search")
 });
 
-app.post('/', function(request, response){
+app.post('/search', function(request, response){
   
   response.send(clinics.searchClinics(request.body));    // echo the result back
 });

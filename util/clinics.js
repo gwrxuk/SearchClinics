@@ -1,11 +1,6 @@
 const axios = require('axios')
 var data = []
 
-var listClinics = function() {
-  
-    return {"msg":"success","clinics":data}
-
-}
 
 var buildArrayOfClinics = function(){
 
@@ -66,4 +61,4 @@ var searchClinics = function(criteria) {
 }
 
 
-module.exports = {listClinics, searchClinics, buildArrayOfClinics}
+module.exports = {searchClinics, buildArrayOfClinics}
